@@ -1,0 +1,42 @@
+create table Books(Book_Id int primary key NOT NULL, Book_Name varchar(200) NOT NULL, Category varchar(75), Language varchar(50), Author varchar(50), Publication varchar(50), Publication_Date varchar(20), Pages int, Edition varchar(20) default 'First', Price float check(Price > 0), Rating float);
+
+
+
+insert into Books values(747532699, 'Harry Potter and the Philosopher Stone', 'Fantasy/Adventure/Drama', 'English', 'J.K. Rowling', 'Bloomsbury', '26-06-1997', 223, 'First', 399.0, 4.5);
+insert into Books values(747438492, 'Harry Potter and the Chamber of Secrets', 'Fantasy/Adventure/Drama', 'English', 'J.K. Rowling', 'Bloomsbury', '02-07-1998', 251, 'First', 299.0, 4.4);
+insert into Books values(747542155, 'Harry Potter and the Prisoner of Azkaban', 'Fantasy/Adventure/Drama', 'English', 'J.K. Rowling', 'Bloomsbury', '08-07-1999', 317, 'First', 327.0, 4.4);
+insert into Books values(747546249, 'Harry Potter and the Globet of Fire', 'Fantasy/Adventure/Drama', 'English', 'J.K. Rowling', 'Bloomsbury', '08-07-2000', 636, 'First', 299.0, 4.7);
+insert into Books values(747551006, 'Harry Potter and the Order of the Phoenix', 'Fantasy/Adventure/Drama', 'English', 'J.K. Rowling', 'Bloomsbury', '21-06-2003', 766, 'First', 299.0, 4.7);
+insert into Books values(747581088, 'Harry Potter and the Half-Blood Prince', 'Fantasy/Adventure/Drama', 'English', 'J.K. Rowling', 'Bloomsbury', '16-07-2005', 607, 'First', 458.0, 4.5);
+insert into Books values(545010225, 'Harry Potter and the Deathly Hallows', 'Fantasy/Adventure/Drama', 'English', 'J.K. Rowling', 'Bloomsbury', '21-07-2007', 607, 'First', 463.0, 4.6);
+insert into Books values(751565350, 'Harry Potter and Cursed Child', 'Fantasy/Adventure/Drama', 'English', 'J.K. Rowling', 'Bloomsbury', '31-07-2016', 352, 'First', 325.0, 3.6);
+insert into Books values(618517650, 'The Lord of the Rings', 'Characters', 'English', 'J.R.R. Tolkien', 'Houghton Mifflin Harcourt', '21-10-2004', 1184, 'First', 670.0, 4.5);
+insert into Books values(380727501, 'Notes from a Small Island', 'Travel', 'English', 'Bill Bryson', 'William Morrow Paperbacks', '28-05-1998', 324, 'First', 224.0, 3.9);
+insert into Books values(767903862, 'In a Sunburned Country', 'Crime', 'English', 'Bill Bryson', 'Broadway Books', '15-05-2001', 335, 'First', 250.0, 4.1);
+insert into Books values(60920084, 'The Lost Continent: Travels in Small Town America', 'Crime', 'English', 'Bill Bryson', 'William Morrow Paperbacks', '28-08-1990', 299, 'First', 360.0, 3.8);
+insert into Books values(767915062, 'Bill Brysons African Diary', 'Autobiography', 'English', 'Bill Bryson', 'Broadway Books', '12-03-2002', 116, 'First', 229.0, 3.4);
+insert into Books values(593200446, 'Well Matched', 'Romance/Comedy/Friction', 'English', 'Jen Deluca', 'Penguin', '19-10-2021', 336, 'First', 386.0, 4.0);
+insert into Books values(1250191908, 'Little Thieves', 'Horror', 'English', 'Margaret Owen', 'Hodder & Stoughton', '05-10-2021', 632, 'First', 460.0, 4.4);
+insert into Books values(1529370574, 'Jade Fire Gold', 'Epic/Fantacy/Friction', 'English', 'June CL Tan', 'Hachette UK', '12-10-2021', 468, 'First', 419.0, 3.9);
+insert into Books values(349427992, 'All the Feels', 'Romance/Friction/Comedy', 'English', 'Olivia Dade', 'Hachette UK', '26-10-2021', 416, 'First', 277.0, 4.1);
+insert into Books values(1250204348, 'When Night Breaks', 'Romance/Friction/Fantacy', 'English', 'Janella Angeles', 'St. Martins Publishing Group', '05-10-2021', 464, 'First', 419.0, 3.9);
+insert into Books values(1787396622, 'Where Thay Wait', 'Horror/Friction/Thriller', 'English', 'Scott Carson', 'Welbeck Publishing', '26-10-2021', 368, 'First', 234.0, 3.6);
+insert into Books values(578894866, 'The Ghosts of Marshley Park', 'Horror/Friction/Fantasy', 'English', 'Amanda innes', 'Mpl Books', '19-10-2021', 318, 'First', 256.0, 4.0);
+insert into Books values(715654349, 'The Sprit Engineer', 'Horror/Friction', 'English', 'A. J. West', 'Prelude Books', '07-10-2021', 356, 'First', 254.0, 4.1);
+insert into Books values(63209462, 'As the Wicked Watched', 'Thriller/Crime', 'English', 'Tamron Hall', 'HarperCollins Publication', '26-10-2021', 400, 'First', 345.0, 3.7);
+insert into Books values(63057018, 'No Will Miss Her', 'Thriller/Crime', 'English', 'Kat Rosenfield', 'HarperCollins Publication', '12-10-2021', 304, 'First', 818.0, 3.9);
+insert into Books values(62938053, 'Death at Greenway', 'Friction/Mystery', 'English', 'Lori Rader-Day', 'HarperCollins Publication', '12-10-2021', 448, 'First', 395.0, 4.5);
+insert into Books values(1922626805, 'Wild Place', 'Friction/Mystery/Crime', 'English', 'Christian White', 'Hachette UK', '26-10-2021', 384, 'First', 577.0, 4.2);
+insert into Books values(1982142162, 'Among Thieves', 'Epic/Fantacy/Friction/Adventure/Action', 'English', 'M. J. Kuhn', 'Simon & Schuster', '07-09-2021', 352, 'First', 465.0, 3.8);
+insert into Books values(62915681, 'The Coior of Dragons', 'Epic/Fantacy/Friction/Romance', 'English', 'R. A. Salvatore & Erika Lewis', 'HarperCollins Publication', '19-10-2021', 416, 'First', 741.0, 4.3);
+insert into Books values(1644294389, 'Dissected', 'Friction/General', 'English', 'Naveen Kakkar', 'Nition Press', '26-09-2018', 140, 'First', 194.0, 3.5);
+insert into Books values(388467647, 'Tulsiprasad Bandhopadhyay the Next MLA', 'Comedy', 'English', 'Sundeep Satheesan', '24by7 Publishing', '20-03-2019', 230, 'First', 124.0, 4.6);
+insert into Books values(1499193054, 'The Wicker Man Chronicles', 'Horror/Fantacy/Thriller/Mystery/Crime', 'English', 'Slave A. Walker', 'Createspace Independent Publication', '14-08-2014', 638, 'First', 236.0, 1.3);
+insert into Books values(1946822965, 'Chasing 33%', 'Story/Drama/Friction/Comedy', 'English', 'Jitendra jain', 'Nition Press', '10-03-2017', 190, 'First', 199.0, 4.5);
+insert into Books values(873711464, 'Wings of Fire', 'Autobiography', 'English/Marathi', 'A. P. J. Abdul Kalam & Arun Tiwari', 'Universities Press', '21-06-1999', 180, 'First', 329.0, 4.4);
+insert into Books values(670049286, 'Ignited Minds', 'Autobiography', 'English/Marathi', 'A. P. J. Abdul Kalam', 'HarperCollins Publication', '16-07-2002', 208, 'First', 151.0, 4.6);
+insert into Books values(352771946, 'Turning Points', 'Autobiography/General', 'English/Marathi', 'A. P. J. Abdul Kalam', 'HarperCollins Publication', '22-06-2012', 192, 'First', 179.0, 4.6);
+
+
+
+ALTER TABLE Books ADD COLUMN Review varchar(500);
