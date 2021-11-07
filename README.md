@@ -2,9 +2,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/BK-Devices/PythonDB"></a>
-  <br>
-  MYSQL Book Library
+  <a href="https://github.com/BK-Devices/PythonDB"><p> MYSQL Book Library </p></a>
   <br>
 </h1>
 
