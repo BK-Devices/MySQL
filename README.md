@@ -3,7 +3,6 @@
 <h1 align="center">
   <br>
   <a href="https://github.com/BK-Devices/PythonDB"><p> MYSQL Book Library </p></a>
-  <br>
 </h1>
 
 
@@ -13,6 +12,7 @@
 ## NOTE:
 
 - Programs requires active internet connection to contact the Database
+- For using cloud database https://www.clever-cloud.com
 
 
 ## Queries:
