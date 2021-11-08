@@ -9,12 +9,6 @@
 <p align="center">Programs for Books Collection</p>
 
 
-## NOTE:
-
-- Programs requires active internet connection to contact the Database
-- For using cloud database https://www.clever-cloud.com
-
-
 ## Queries:
 
 - Text file of queries for database
@@ -35,4 +29,4 @@
 - Write a program to accept book code and review, update the record with the review content
 
 
-<p align="right"> Last Update: 07.11.2021 </p>
+<p align="right"> Last Update: 08.11.2021 </p>
