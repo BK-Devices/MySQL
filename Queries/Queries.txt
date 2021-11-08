@@ -2,6 +2,10 @@ create table Books(Book_Id int primary key NOT NULL, Book_Name varchar(200) NOT 
 
 
 
+ALTER TABLE Books ADD COLUMN Review varchar(500);
+
+
+
 insert into Books values(747532699, 'Harry Potter and the Philosopher Stone', 'Fantasy/Adventure/Drama', 'English', 'J.K. Rowling', 'Bloomsbury', '26-06-1997', 223, 'First', 399.0, 4.5, '');
 insert into Books values(747438492, 'Harry Potter and the Chamber of Secrets', 'Fantasy/Adventure/Drama', 'English', 'J.K. Rowling', 'Bloomsbury', '02-07-1998', 251, 'First', 299.0, 4.4, '');
 insert into Books values(747542155, 'Harry Potter and the Prisoner of Azkaban', 'Fantasy/Adventure/Drama', 'English', 'J.K. Rowling', 'Bloomsbury', '08-07-1999', 317, 'First', 327.0, 4.4, '');
@@ -37,7 +41,3 @@ insert into Books values(873711464, 'Wings of Fire', 'Autobiography', 'English/M
 insert into Books values(670049286, 'Ignited Minds', 'Autobiography', 'English/Marathi', 'A. P. J. Abdul Kalam', 'HarperCollins Publication', '16-07-2002', 208, 'First', 151.0, 4.6, '');
 insert into Books values(352771946, 'Turning Points', 'Autobiography/General', 'English/Marathi', 'A. P. J. Abdul Kalam', 'HarperCollins Publication', '22-06-2012', 192, 'First', 179.0, 4.6, '');
 insert into Books values(143423683, 'India 2020', 'Non-Fiction', 'English', 'A. P. J. Abdul Kalam & Y. S. Rajan', 'Publication division of Ministry', '03-11-1998', 244, 'First', 193.0, 4.6, '');
-
-
-
-ALTER TABLE Books ADD COLUMN Review varchar(500);
