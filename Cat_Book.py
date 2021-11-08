@@ -5,7 +5,9 @@ curs = con.cursor()
 
 ct1 = input('Enter first category : ')
 ct2 = input('Enter second category if not then press "Enter" : ')
-ct3 = input('Enter third category if not then press "Enter" : ')
+
+if ct2 != '':
+        ct3 = input('Enter third category if not then press "Enter" : ')
 
 curs.execute("select Book_Id, Book_Name, LOCATE('%s', Category), LOCATE('%s', Category), Locate('%s', Category) from Books" %(ct1, ct2, ct3))
 data = curs.fetchall()
