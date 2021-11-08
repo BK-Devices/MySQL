@@ -1,3 +1,5 @@
+# Creating Review column in table
+
 import mysql.connector as my
 
 con = my.connect(host='bqltptwhptjkoscudwi2-mysql.services.clever-cloud.com', user='umlcfuqf0izu5gll', password='2phqaWmF5ZJtwkS510UY', database='bqltptwhptjkoscudwi2')
