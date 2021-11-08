@@ -24,7 +24,7 @@ try:
         print()
         ch = input('Do you want remove Book from database - Yes/No : ')
         if ch.upper() == 'YES':
-            curs.execute("delete from books where Book_Id = %d" %id)
+            curs.execute("delete from Books where Book_Id = %d" %id)
             con.commit()
             
             print()
