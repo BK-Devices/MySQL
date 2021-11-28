@@ -12,9 +12,6 @@
 ## Queries:
 
 - Text file of queries for database
-- Program for creating table "Books" table columns Book id, Book name, Category, Author, Publication, price, etc.
-- Program for inserting values in Books table from csv dataset
-- Program for Add new column "Review varchar(500)" using "Alter" query
 
 
 ## Programs:
