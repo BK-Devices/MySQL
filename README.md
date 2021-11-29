@@ -1,7 +1,6 @@
 # PythonDB
 
 <h1 align="center">
-  <br>
   <a href="https://github.com/BK-Devices/PythonDB"><p> MYSQL Book Library </p></a>
 </h1>
 
