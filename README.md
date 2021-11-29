@@ -9,13 +9,9 @@
 <p align="center">Programs for Books Collection</p>
 
 
-## Queries:
+## Files:
 
 - Text file of queries for database
-
-
-## Programs:
-
 - Write a program to take input and add new book to the database table
 - Write a program to show list of all books
 - Write a program to accept book code, search book in table, show book details if found else display "not found" message
